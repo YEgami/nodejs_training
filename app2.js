@@ -10,6 +10,7 @@ var server = http.createServer(
     response.write('<p>This is My First Node.js sample page.</p>');
     response.write('<p>私が作った初めてのNode.jsのサンプルページです。</p>', 'utf8');
     response.write('<p>1行追加してみます</p>', 'utf8');
+    response.write('<p>さらに1行追加してみます</p>', 'utf8');
     response.write('</body></html>');
     response.end();
   }
